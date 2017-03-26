@@ -1,10 +1,3 @@
-//
-//  TableViewController.swift
-//  tableview2
-//
-//  Created by Alex on 3/26/17.
-//  Copyright © 2017 alex. All rights reserved.
-//
 
 import UIKit
 let offset_HeaderStop: CGFloat = 100
@@ -43,8 +36,7 @@ class ViewController: UIViewController, UITableViewDataSource, UIScrollViewDeleg
         headerView.layer.transform = headerTransform
 
     }
-
-
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
@@ -63,7 +55,4 @@ class ViewController: UIViewController, UITableViewDataSource, UIScrollViewDeleg
 
         return cell
     }
-
-
-
 }
